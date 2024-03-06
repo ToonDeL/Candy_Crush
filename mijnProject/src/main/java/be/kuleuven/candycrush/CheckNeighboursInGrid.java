@@ -2,9 +2,6 @@ package be.kuleuven.candycrush;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class CheckNeighboursInGrid {
 
     public static Iterable<Integer> getSameNeighboursIds(Iterable<Integer> grid, int width, int height, int indexToCheck) {

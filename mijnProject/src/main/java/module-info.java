@@ -1,8 +1,4 @@
-module be.kuleuven.candycrush {
-    requires javafx.controls;
-    requires javafx.fxml;
+module be.kuleuven.Crush.checkNeighbour {
 
-
-    opens be.kuleuven.candycrush to javafx.fxml;
     exports be.kuleuven.candycrush;
 }
