@@ -27,11 +27,11 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-    - name: grant execurte permission
-      run: chmod +x gradlew
+    
     
     - name: Test with Gradle 8.5
       run: |
         cd candycrush2
+        chmod +x gradlew
         ./gradlew test
 
