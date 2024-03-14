@@ -31,6 +31,6 @@ jobs:
     
     - name: Test with Gradle 8.5
       run: |
-        cd CandyCrushIntelliJProject
+        cd candycrush2
         ./gradlew test
 
